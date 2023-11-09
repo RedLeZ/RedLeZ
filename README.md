@@ -11,5 +11,5 @@ https://www.mediafire.com/file/vr67e99uxc4c0vc/CSCOO.jar/file
 - **Name**: RedLeZ
 - **Age**: 16
 - **Discord**: howtoredstonev2
-- **WayZ Project**: [https://hunterZ.fr](https://hunterZ.fr)
-- **Livosk Project**: [https://livosk.fr](https://livosk.fr)
+- **WayZ Project**: [WayZ](https://hunterZ.fr)
+- **Livosk Project**: [ArmaZ](https://armaz-mc.com/)
