@@ -14,17 +14,12 @@ Minecraft is my favorite game, and you can find below some of the projects I'm w
 
 ## Language Preferences
 
-- **Java**:
-  ![Java](https://img.icons8.com/color/96/000000/java-coffee-cup-logo.png)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
   
-- **Python**:
-  ![Python](https://img.icons8.com/color/96/000000/python.png)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
   
-- **HTML5**:
-  ![HTML5](https://img.icons8.com/color/96/000000/html-5.png)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
   
-- **CSS3**:
-  ![CSS3](https://img.icons8.com/color/96/000000/css3.png)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
   
-- **C++**:
-  ![C++](https://img.icons8.com/color/96/000000/c-plus-plus-logo.png)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
