@@ -9,7 +9,6 @@ Minecraft is my favorite game, and you can find below some of the projects I'm w
 - **Name**: RedLeZ
 - **Age**: 17
 - **Discord**: howtoredstone
-- **WayZ Project**: [WayZ](https://hunterZ.fr)
 - **Armaz Project**: [ArmaZ](https://armaz-mc.com/)
 - **Current Learning**: JavaScript, C++
 
