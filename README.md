@@ -11,8 +11,7 @@ i use vim btw
 - **Name**: RedLeZ
 - **Age**: 17
 - **Discord**: howtoredstone
-- **Armaz Project**: [ArmaZ](https://armaz-mc.com/)
-- **Current Learning**: JavaScript, C++
+- **Current Learning**: JavaScript, C++, dart
 
 
 
