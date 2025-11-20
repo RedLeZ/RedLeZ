@@ -5,6 +5,8 @@ From game mods to systems programming, I'm always experimenting, learning, and p
 
 > i use vim btw :)
 
+👉 Live Portfolio: https://redlez.github.io/RedLeZ/
+
 ## 🧠 About Me
 
 - 🧑‍💻 **Name**: RedLeZ  
