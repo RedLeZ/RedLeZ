@@ -1,0 +1,35 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff2e2e;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#8a2be2;stop-opacity:0.25" />
+      <stop offset="100%" style="stop-color:#ff2e2e;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff2e2e" />
+      <stop offset="100%" style="stop-color:#8a2be2" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="400" fill="#0f1222"/>
+  <rect width="800" height="400" fill="url(#bg)"/>
+  
+  <!-- Plus icons pattern -->
+  <g opacity="0.3">
+    <text x="150" y="120" font-size="60" fill="url(#text-grad)" font-family="Arial, sans-serif" font-weight="bold">+</text>
+    <text x="400" y="200" font-size="80" fill="url(#text-grad)" font-family="Arial, sans-serif" font-weight="bold">+</text>
+    <text x="600" y="140" font-size="50" fill="url(#text-grad)" font-family="Arial, sans-serif" font-weight="bold">+</text>
+    <text x="250" y="320" font-size="70" fill="url(#text-grad)" font-family="Arial, sans-serif" font-weight="bold">+</text>
+  </g>
+  
+  <!-- Main text -->
+  <text x="400" y="200" font-size="72" fill="url(#text-grad)" font-family="Arial, sans-serif" font-weight="bold" text-anchor="middle">More Coming</text>
+  <text x="400" y="250" font-size="28" fill="#a4a8b3" font-family="Arial, sans-serif" text-anchor="middle">Stay Tuned</text>
+  
+  <!-- Dots decoration -->
+  <circle cx="340" cy="300" r="4" fill="#ff2e2e" opacity="0.6"/>
+  <circle cx="370" cy="300" r="4" fill="#8a2be2" opacity="0.6"/>
+  <circle cx="400" cy="300" r="4" fill="#ff2e2e" opacity="0.6"/>
+  <circle cx="430" cy="300" r="4" fill="#8a2be2" opacity="0.6"/>
+  <circle cx="460" cy="300" r="4" fill="#ff2e2e" opacity="0.6"/>
+</svg>

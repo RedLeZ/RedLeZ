@@ -3,9 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RedLeZ — Portfolio</title>
-  <meta name="description" content="Portfolio of RedLeZ: projects, skills, and contact." />
-  <link rel="icon" href="./assets/favicon.ico" type="image/svg+xml" />
+  <title>RedLeZ - Portfolio</title>
+  <meta name="description" content="Portfolio of RedLeZ: projects, skills, and volunteering." />
+  <meta property="og:title" content="RedLeZ - Portfolio" />
+  <meta property="og:description" content="Projects, skills, open source, and volunteering by RedLeZ." />
+  <meta property="og:url" content="https://redlez.github.io/RedLeZ/" />
+  <meta property="og:image" content="https://redlez.github.io/RedLeZ/assets/og-image.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
   <!-- Devicon icon font for skill icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
@@ -16,6 +21,7 @@
     <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle navigation">☰</button>
     <nav id="site-nav" class="site-nav" aria-label="Primary">
       <a href="#about">About</a>
+      <a href="#journey">Journey</a>
       <a href="#skills">Skills</a>
       <a href="#activity">Activity</a>
       <a href="#projects">Projects</a>
@@ -30,51 +36,312 @@
         <div class="hero-text">
           <h1>Hello, I'm <span class="accent">RedLeZ</span></h1>
           <p class="subtitle">Computer Science Student • Open Source Enthusiast</p>
-          <p class="lede">I experiment, learn, and build with code, curiosity driven projects</p>
+          <p class="lede">I build practical tools, small languages, and game-adjacent projects with an eye on performance and DX.</p>
           <div class="actions">
             <a class="button primary" href="#projects">View Projects</a>
-            <a class="button ghost" target="_blank" rel="noopener" href="mailto:contact@example.com">Contact Me</a>
+            <a class="button ghost" href="#contact">Contact Me</a>
             <a class="button ghost" href="#more">More Than A Coder</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <div class="avatar-container">
+            <img src="./assets/profile-avatar.png" alt="RedLeZ profile" class="avatar-image" />
           </div>
         </div>
       </div>
     </section>
-
-    
-
     <section id="about" class="section">
       <div class="container">
         <h2>About</h2>
         <p>
-            I'm RedleZ(Amine Hammami) a Computer Science Student, love exploring old and new technologies, building projects that solve real-world problems, and contributing to open-source communities.
+            I'm Amine Hammami (RedLeZ), a CS student who likes clean tooling and fast feedback loops. I split time between compilers/DSL experiments (ANTLR), Minecraft mod tooling, and shipping small utilities with polish. I enjoy mentoring newcomers and collaborating on open source.
         </p>
+      </div>
+    </section>
+
+    <section id="journey" class="section alt">
+      <div class="container">
+        <h2>Journey</h2>
+        <p class="section-intro">Story-style timeline of how curiosity, modding, and volunteering shaped me.</p>
+        <div class="timeline-table" aria-label="Coding and growth timeline">
+          <div class="timeline-row">
+            <div class="timeline-year">2007</div>
+            <div class="timeline-body">
+              <h3>Where Curiosity Started</h3>
+              <p>Born into a gamer family - screens and controllers everywhere. My dad's passion for games made me wonder how these magic boxes worked.</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2011</div>
+            <div class="timeline-body">
+              <h3>My First PC (Age 4)</h3>
+              <p>Got my own computer and the internet opened up: games, tools, mysterious software, endless discovery. Minecraft arrived and never left.</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2016–2017</div>
+            <div class="timeline-body">
+              <h3>The Hacker Phase</h3>
+              <p>Dove into cybersecurity curiosity and "how things work" groups like Anonymous.</p>
+              <ul class="timeline-points">
+                <li>Game hacking and mod menus</li>
+                <li>Tools like GameGuardian</li>
+                <li>Peeking into system internals</li>
+              </ul>
+              <p>It wasn’t about harm - I was obsessed with understanding the internals.</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2018</div>
+            <div class="timeline-body">
+              <h3>First Steps in Minecraft Modding</h3>
+              <p>Shifted from breaking to building: custom launchers, editing files, tweaking game behavior. Most attempts failed - I quit, returned, failed again - but kept pushing.</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2020</div>
+            <div class="timeline-body">
+              <h3>Mentors Who Shaped Me</h3>
+              <p>Stopped learning alone - friends mentored me for free and changed my path.</p>
+              <ul class="timeline-points">
+                <li><a href="https://github.com/Niwer1525" target="_blank">Niwer</a> - Java mentor, modding inspiration, long-term friend</li>
+                <li><a href="https://armaz-mc.com/" target="_blank">Dead-Donw team</a> - My friends who made a Minecraft server with me</li>
+                <li><a href="https://github.com/Miniquoinquoin" target="_blank">Miniquoi</a> - HTML/CSS foundation</li>
+              </ul>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2021–Today</div>
+            <div class="timeline-body">
+              <h3>Volunteering, Growth, Confidence</h3>
+              <p>Volunteering became a core chapter - helped me grow beyond keyboards.</p>
+              <ul class="timeline-points">
+                <li>Broke out of shyness and built real confidence</li>
+                <li>Learned teamwork, leadership, and feeling valued</li>
+                <li>Experienced burnout and learned to recover</li>
+              </ul>
+              <p>People needed me for my skills, not just potential - it felt meaningful.</p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2023</div>
+            <div class="timeline-body">
+              <h3>First Contributions</h3>
+              <p>Published my first collaborative Minecraft mod with <a  href="https://mcreator.net/user/582198/prorol" target="_blank">prorol</a> and began shipping servers, tools, scripts, and small systems. Started feeling like a builder.</p>
+              <p><a href="https://mcreator.net/comment/224901" target="_blank" rel="noopener">See the 2023 mod contribution</a></p>
+            </div>
+          </div>
+          <div class="timeline-row">
+            <div class="timeline-year">2023–2025</div>
+            <div class="timeline-body">
+              <h3>From Modding to Systems</h3>
+              <p>Curiosity matured into systems work - interpreters, compilers, custom languages, system tools, backend development. I want to build things that help people the way mentors helped me.</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="skills" class="section alt">
       <div class="container">
         <h2>Skills</h2>
-        <ul class="tags">
-          <li><span class="icon devicon-java-plain"></span><span>Java</span></li>
-          <li><span class="icon devicon-cplusplus-plain"></span><span>C++</span></li>
-          <li><span class="icon devicon-python-plain"></span><span>Python</span></li>
-          <li><span class="icon devicon-javascript-plain"></span><span>JavaScript</span></li>
-          <li><span class="icon devicon-dart-plain"></span><span>Dart</span></li>
-          <li><span class="icon devicon-flutter-plain"></span><span>Flutter</span></li>
-          <li><span class="icon devicon-docker-plain"></span><span>Docker</span></li>
-          <li><span class="icon devicon-github-original"></span><span>GitHub Actions</span></li>
-          <li><span class="icon devicon-mysql-plain"></span><span>SQL</span></li>
-          <li><span class="icon devicon-godot-plain"></span><span>GDScript</span></li>
-          <li><span class="icon"><img src="./assets/antlr.svg" alt="ANTLR4" /></span><span>ANTLR4</span></li>
-        </ul>
-        <p>Wanting to learn / Currently Learning :</p>
-        <ul class="tags">
-          <li><span class="icon devicon-rust-plain"></span><span>Rust</span></li>
-          <li><span class="icon devicon-go-plain"></span><span>Go</span></li>
-          <li><span class="icon devicon-kotlin-plain"></span><span>Kotlin</span></li>
-          <li><span class="icon devicon-c-plain"></span><span>C</span></li>
-          <li><span class="icon devicon-typescript-plain"></span><span>TypeScript</span></li>
-        </ul>
+        <p class="section-intro">Click on any skill to view detailed information.</p>
+
+        <div class="skill-tree-interactive">
+          <div class="skill-visualization">
+            <div class="skill-proficiency">
+              <!-- Advanced Skills -->
+              <div class="proficiency-level">
+                <div class="level-header">
+                  <div class="level-icon advanced-icon">★</div>
+                  <div>
+                    <div class="level-title">Advanced Proficiency</div>
+                    <div class="level-subtitle">Languages and tools I'm highly experienced with</div>
+                  </div>
+                </div>
+                
+                <div class="skills-grid">
+                  <div class="skill-circle advanced active" data-skill="Java">
+                    <i class="skill-icon devicon-java-plain"></i>
+                    <div class="skill-level-indicator advanced"></div>
+                    <div class="skill-name">Java</div>
+                  </div>
+                  
+                  <div class="skill-circle advanced" data-skill="Python">
+                    <i class="skill-icon devicon-python-plain"></i>
+                    <div class="skill-level-indicator advanced"></div>
+                    <div class="skill-name">Python</div>
+                  </div>
+                  
+                  <div class="skill-circle advanced" data-skill="ANTLR4">
+                    <img class="skill-img" sizes="32" src="./assets/antlr.svg" alt="ANTLR4">
+                    <div class="skill-level-indicator advanced"></div>
+                    <div class="skill-name">ANTLR4</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Intermediate Skills -->
+              <div class="proficiency-level">
+                <div class="level-header">
+                  <div class="level-icon intermediate-icon">▲</div>
+                  <div>
+                    <div class="level-title">Intermediate Proficiency</div>
+                    <div class="level-subtitle">Languages and tools I'm comfortable working with</div>
+                  </div>
+                </div>
+                
+                <div class="skills-grid">
+                  <div class="skill-circle intermediate" data-skill="C++">
+                    <i class="skill-icon devicon-cplusplus-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">C++</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="JavaScript">
+                    <i class="skill-icon devicon-javascript-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">JavaScript</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="Flutter">
+                    <i class="skill-icon devicon-flutter-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">Flutter</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="Dart">
+                    <i class="skill-icon devicon-dart-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">Dart</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="Docker">
+                    <i class="skill-icon devicon-docker-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">Docker</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="GitHub Actions">
+                    <i class="skill-icon devicon-github-original"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name"> GitHub Actions</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="SQL">
+                    <i class="skill-icon devicon-mysql-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">SQL</div>
+                  </div>
+                  
+                  <div class="skill-circle intermediate" data-skill="GDScript">
+                    <i class="skill-icon devicon-godot-plain"></i>
+                    <div class="skill-level-indicator intermediate"></div>
+                    <div class="skill-name">GDScript</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Learning Next -->
+              <div class="proficiency-level">
+                <div class="level-header">
+                  <div class="level-icon locked-icon">🔒</div>
+                  <div>
+                    <div class="level-title">Learning Next</div>
+                    <div class="level-subtitle">Languages and tools I plan to learn</div>
+                  </div>
+                </div>
+                
+                <div class="skills-grid">
+                  <div class="skill-circle locked" data-skill="Rust">
+                    <i class="skill-icon devicon-rust-plain"></i>
+                    <div class="skill-level-indicator locked"></div>
+                    <div class="skill-name">Rust</div>
+                  </div>
+                  
+                  <div class="skill-circle locked" data-skill="Go">
+                    <i class="skill-icon devicon-go-plain"></i>
+                    <div class="skill-level-indicator locked"></div>
+                    <div class="skill-name">Go</div>
+                  </div>
+                  
+                  <div class="skill-circle locked" data-skill="Kotlin">
+                    <i class="skill-icon devicon-kotlin-plain"></i>
+                    <div class="skill-level-indicator locked"></div>
+                    <div class="skill-name">Kotlin</div>
+                  </div>
+                  
+                  <div class="skill-circle locked" data-skill="C">
+                    <i class="skill-icon devicon-c-plain"></i>
+                    <div class="skill-level-indicator locked"></div>
+                    <div class="skill-name">C</div>
+                  </div>
+                  
+                  <div class="skill-circle locked" data-skill="TypeScript">
+                    <i class="skill-icon devicon-typescript-plain"></i>
+                    <div class="skill-level-indicator locked"></div>
+                    <div class="skill-name">TypeScript</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="skill-details">
+            <div class="default-message" id="default-message">
+              <div class="default-icon">→</div>
+              <h3>Select a Skill</h3>
+              <p>Click on any skill circle to view detailed information about that language, framework, or tool.</p>
+            </div>
+            
+            <div class="skill-details-content" id="skill-details-content" style="display: none;">
+              <div class="details-header">
+                <div class="details-icon-container">
+                  <div class="details-icon" id="details-icon">
+                    <i class="devicon-java-plain"></i>
+                  </div>
+                </div>
+                <div class="details-title-container">
+                  <div class="details-title" id="details-title">Java</div>
+                  <div class="details-level level-advanced" id="details-level">Advanced</div>
+                </div>
+              </div>
+              
+              <div class="details-content">
+                <div class="details-section">
+                  <div class="section-title">Description</div>
+                  <div class="section-content" id="skill-description"></div>
+                </div>
+                
+                <div class="details-section">
+                  <div class="section-title">Experience & Projects</div>
+                  <div class="section-content">
+                    <ul class="experience-list" id="skill-experience"></ul>
+                  </div>
+                </div>
+                
+                <div class="details-section">
+                  <div class="section-title">Key Features</div>
+                  <div class="section-content">
+                    <ul class="experience-list" id="skill-features"></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-legend">
+          <div class="legend-item">
+            <span class="legend-dot advanced"></span> Advanced Proficiency
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot intermediate"></span> Intermediate Proficiency
+          </div>
+          <div class="legend-item">
+            <span class="legend-dot locked"></span> Learning Next
+          </div>
+        </div>
       </div>
     </section>
 
@@ -82,9 +349,10 @@
       <div class="container">
         <h2>Coding Activity</h2>
         <figure class="coding-activity" aria-labelledby="activity-caption">
-          <embed src="https://wakatime.com/share/@howtoredstone/c1fb4b46-8e95-4e17-b688-bc0626ac0b39.svg" type="image/svg+xml" />
+          <img src="https://wakatime.com/share/@howtoredstone/c1fb4b46-8e95-4e17-b688-bc0626ac0b39.svg" alt="WakaTime coding activity chart" />
           <figcaption id="activity-caption">Recent coding time (powered by WakaTime).</figcaption>
         </figure>
+        <p class="alt-link"><a href="https://wakatime.com/@howtoredstone" target="_blank" rel="noopener">View full stats on WakaTime</a></p>
       </div>
     </section>
 
@@ -93,19 +361,21 @@
         <h2>Projects</h2>
         <div class="grid projects">
           <article class="card">
+            <div class="thumb"><img src="assets/AlgTPy.svg" alt="AlgTPy Banner" style="width: 100%; height: 100%; object-fit: cover;"></div>
             <h3>AlgTPy</h3>
-            <p>A Python Translator for the Tunisian algorithm Language</p>
+            <p>Python translator for the Tunisian algorithm language using ANTLR4.</p>
             <ul class="meta">
               <li>Python</li>
-              <li>antlr4</li>
+              <li>ANTLR4</li>
             </ul>
             <div class="links">
               <a target="_blank" rel="noopener" href="https://github.com/RedLeZ/AlgTPy">Repo</a>
             </div>
           </article>
           <article class="card">
+            <div class="thumb"><img src="assets/dragonlauncher.svg" alt="DragonLauncher Screenshot" style="width: 100%; height: 100%; object-fit: cover;"></div>
             <h3>DragonLauncher</h3>
-            <p>A Minecarft Launcher Build from Scratch</p>
+            <p>A Minecraft launcher built from scratch with custom patching and theming.</p>
             <ul class="meta">
               <li>Java</li>
             </ul>
@@ -114,19 +384,21 @@
             </div>
           </article>
           <article class="card">
-            <h3>EZ-Langauge</h3>
-            <p>a tiny, experimental language that bridges multi-language projects</p>
+            <div class="thumb"><img src="assets/EZ-Language.svg" alt="EZ-Language Banner" style="width: 100%; height: 100%; object-fit: cover;"></div>
+            <h3>EZ-Language</h3>
+            <p>EZ-Language: a tiny, experimental language that bridges multi-language projects and reproducible Nix environments.</p>
             <ul class="meta">
-              <li>Cpp</li>
-              <li>antlr4</li>
+              <li>C++</li>
+              <li>ANTLR4</li>
             </ul>
             <div class="links">
               <a target="_blank" rel="noopener" href="https://github.com/RedLeZ/EZ-Langauge">Repo</a>
             </div>
           </article>
           <article class="card">
+            <div class="thumb"><img src="assets/redshell-banner.svg" alt="RedShell Banner" style="width: 100%; height: 100%; object-fit: cover;"></div>
             <h3>RedShell</h3>
-            <p>A modable shell in python</p>
+            <p>A hackable Python shell with modular extensions and theming.</p>
             <ul class="meta">
               <li>Python</li>
             </ul>
@@ -135,8 +407,9 @@
             </div>
           </article>
           <article class="card">
+            <div class="thumb"><img src="assets/more-projects.svg" alt="More Projects Coming" style="width: 100%; height: 100%; object-fit: cover;"></div>
             <h3>More</h3>
-            <p>More Projects Are Comming Soon With Friends and Collaborators</p>
+            <p>More projects are coming soon with friends and collaborators.</p>
             <ul class="meta">
               <li>Everything</li>
               <li>Everyone</li>
@@ -148,58 +421,104 @@
         </div>
       </div>
     </section>
+
+    <section id="achievements" class="section alt">
+      <div class="container">
+        <h2>Achievements</h2>
+        <div class="grid achievements">
+          <article class="card">
+            <h3>Open Source Impact</h3>
+            <p>Shipped ANTLR-based translator and multiple tooling repos with consistent commit cadence.</p>
+            <ul class="meta">
+              <li>AlgTPy</li>
+              <li>RedShell</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Community & Volunteering</h3>
+            <p>Facilitated workshops, created educational flyers, and collaborated with international teams.</p>
+            <ul class="meta">
+              <li>Youthpass</li>
+              <li>Workshops</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Learning & Exploration</h3>
+            <p>Exploring Rust/Go/Kotlin while iterating on DSLs and Minecraft tooling.</p>
+            <ul class="meta">
+              <li>Rust</li>
+              <li>Go</li>
+              <li>Kotlin</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
     <section id="more" class="section">
       <div class="container">
         <h2>More Than A Coder</h2>
         <p class="section-intro">A glimpse into my volunteering and interests beyond pure software.</p>
-        <figure class="team-photo">
-          <img src="./assets/team.webp"
-               width="1080" height="640"
-              loading="lazy"
-              alt="RedLeZ with international Precious food-ture team in Stuttgart during a sustainability workshop." />
-         <figcaption>International team — “Precious food-ture” volunteering project.</figcaption>
-       </figure>
 
-        <h3 class="subhead">Volunteering</h3>
-        <div class="grid xp">
-          <article class="card">
-            <h3>"Precious food-ture" - Germany</h3>
-            <ul class="meta">
-              <li>Germany - Stuttgart</li>
-              <li>2025-Present</li>
-            </ul>
-            <p>Exploring food sharing initiatives and sustainability practices in Stuttgart.</p>
-            <ul class="bullets">
-              <li>Workshops and community engagement</li>
-              <li>Making Flyers For food sharing platforms & places</li>
-              <li>Working in an international team (Still Love you Guys)</li>
-            </ul>
-            <div class="badges">
-                <a class="badge cred" href="./assets/youthpass.pdf" target="_blank" rel="noopener" download>
-                  Youthpass
-                </a>
-                <a class="badge cred" href="https://www.instagram.com/p/DPO00dbjDqb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">See More..</a>
+        <div class="vol-box">
+          <h3 class="subhead">Volunteering</h3>
+
+          <div class="vol-gallery" aria-label="Volunteering photo gallery">
+            <button class="vol-nav prev" aria-label="Previous photo">◀</button>
+            <div class="vol-viewport">
+              <div class="vol-track">
+                <figure class="vol-slide active">
+                  <img src="./assets/team.webp" alt="RedLeZ with the Precious food-ture international team in Stuttgart" loading="lazy" />
+                  <figcaption>Precious food-ture - International team workshop (Stuttgart)</figcaption>
+                </figure>
+                <figure class="vol-slide">
+                  <img src="./assets/dance.webp" alt="Performance with the local team at the youth center in Menzel Bourguiba" loading="lazy" />
+                  <figcaption>Performance with the local team at the youth center in Menzel Bourguiba</figcaption>
+                </figure>
               </div>
-            
-          </article>
-          <article class="card">
-            <h3>Environment And Health Club & Les Amis des Jeunes Association</h3>
-            <ul class="meta">
-              <li>Local Meetups</li>
-              <li>2022–2025</li>
-            </ul>
-            <p>Engaged in local meetups focused on environmental and health topics.</p>
-            <ul class="bullets">
-              <li>Data collection and analysis for environmental impact & health (Violance, addiction)</li>
-              <li>Managing Teams and Leading Small Projects & Research</li>
-              <li>Participating in / Hosting a lot of event</li>
-            </ul>
-            <div class="badges">
-              <a class="badge cred" href="https://www.facebook.com/profile.php?id=100090077213197" target="_blank" rel="noopener"> Health and Environment Club Facebook page</a>
-              <a class="badge cred" href="https://www.facebook.com/profile.php?id=61577055327043" target="_blank" rel="noopener"> Les Amis des Jeunes Association Facebook page</a>
             </div>
+            <button class="vol-nav next" aria-label="Next photo">▶</button>
+          </div>
+
+          <div class="grid xp">
+            <article class="card">
+              <h3>"Precious food-ture" - Germany</h3>
+              <ul class="meta">
+                <li>Germany - Stuttgart</li>
+                <li>2025-Present</li>
+              </ul>
+              <p>Exploring food sharing initiatives and sustainability practices in Stuttgart.</p>
+              <ul class="bullets">
+                <li>Workshops and community engagement</li>
+                <li>Making Flyers For food sharing platforms & places</li>
+                <li>Working in an international team (Still Love you Guys)</li>
+              </ul>
+              <div class="badges">
+                  <a class="badge cred" href="./assets/youthpass.pdf" target="_blank" rel="noopener" download>
+                    Youthpass
+                  </a>
+                  <a class="badge cred" href="https://www.instagram.com/p/DPO00dbjDqb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==">See More..</a>
+                </div>
               
-          </article>
+            </article>
+            <article class="card">
+              <h3>Environment And Health Club & Les Amis des Jeunes Association</h3>
+              <ul class="meta">
+                <li>Local Meetups</li>
+                <li>2022–2025</li>
+              </ul>
+              <p>Engaged in local meetups focused on environmental and health topics.</p>
+              <ul class="bullets">
+                <li>Data collection and analysis for environmental impact & health (Violence, addiction)</li>
+                <li>Managing Teams and Leading Small Projects & Research</li>
+                <li>Participating in / Hosting a lot of event</li>
+              </ul>
+              <div class="badges">
+                <a class="badge cred" href="https://www.facebook.com/profile.php?id=100090077213197" target="_blank" rel="noopener"> Health and Environment Club Facebook page</a>
+                <a class="badge cred" href="https://www.facebook.com/profile.php?id=61577055327043" target="_blank" rel="noopener"> Les Amis des Jeunes Association Facebook page</a>
+              </div>
+                
+            </article>
+          </div>
         </div>
       </div>
     </section>
@@ -207,9 +526,11 @@
       <div class="container">
         <h2>Contact</h2>
         <p>Want to collaborate or have a question?</p>
-        <p>
+        <div class="contact-links">
+          <a class="button primary" href="mailto:gehrman.hunter@proton.me">Email</a>
+          <a class="button ghost" target="_blank" rel="noopener" href="https://www.linkedin.com/">LinkedIn</a>
           <a class="button ghost" target="_blank" rel="noopener" href="https://github.com/RedLeZ">GitHub</a>
-        </p>
+        </div>
       </div>
     </section>
   </main>
