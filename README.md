@@ -1,38 +1,65 @@
-# 👋 Hey, I'm RedLeZ
+# RedLeZ
 
-I'm a 18-year-old developer who loves building things, especially in Minecraft.  
-From game mods to systems programming, I'm always experimenting, learning, and pushing boundaries.
+**Software & backend Engineer** • Compiler & DSL Enthusiast • Open Source Contributor
 
-> i use vim btw :)
+Building practical tools, custom languages, and systems with a focus on performance and developer experience.
 
-👉 Live Portfolio: https://redlez.github.io/RedLeZ/
-
-## 🧠 About Me
-
-- 🧑‍💻 **Name**: RedLeZ  
-- 🎮 **Favorite Game**: Minecraft  
-- 💬 **Discord**: howtoredstone  
-- 🚀 **Currently Learning**: C, C++, Dart  
-
-## 💻 Language Preferences
-
-**Favorites**  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)  
-
-**Also Comfortable With**  
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)  
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)  
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)  
-
-## 📈 My Coding Activity
-
-[![WakaTime](https://wakatime.com/share/@howtoredstone/c09464e1-cefa-44c8-9601-88dc932191e8.png)](https://wakatime.com/@howtoredstone)
+[📂 Full Portfolio](https://redlez.github.io/RedLeZ/) • [📧 Email](mailto:Dead-Down.RedLeZ@proton.me) • [💻 GitHub](https://github.com/RedLeZ)
 
 ---
 
-Thanks for dropping by — feel free to check out my projects or say hi on Discord!
+## About
+
+I'm Amine Hammami (RedLeZ), a CS student focused on backend systems, compilers, and DSLs. My work spans interpreters, custom languages with ANTLR, Minecraft tooling, and developer utilities. I value clean code, meaningful collaboration, and shipping with polish.
+
+---
+
+## Featured Projects
+
+### [AlgTPy](https://github.com/RedLeZ/AlgTPy)
+Python translator for the Tunisian algorithm language using ANTLR4.  
+**Stack:** Python • ANTLR4
+
+### [EZ-Language](https://github.com/RedLeZ/EZ-Language)
+Tiny experimental language bridging multi-language projects with reproducible Nix environments.  
+**Stack:** C++ • ANTLR4
+
+### [DragonLauncher](https://github.com/RedLeZ/DragonLauncher)
+Custom Minecraft launcher with patching and theming from scratch.  
+**Stack:** Java
+
+### [RedShell](https://github.com/RedLeZ/RedShell)
+Hackable Python shell with modular extensions and theming.  
+**Stack:** Python
+
+---
+
+## Skills
+
+**Advanced**  
+Java • Python • ANTLR4
+
+**Intermediate**  
+C++ • JavaScript • Docker • GitHub Actions • SQL • GDScript
+
+**Learning**  
+Rust • Go • Kotlin • TypeScript
+
+---
+
+## Activity
+
+[![Coding Activity](https://wakatime.com/share/@howtoredstone/c1fb4b46-8e95-4e17-b688-bc0626ac0b39.svg)](https://wakatime.com/@howtoredstone)
+
+---
+
+## Highlights
+
+- 🏗️ **Compiler & DSL Work** – ANTLR-based language design and translation
+- 🛠️ **Developer Tools** – Shells, launchers, and utility systems
+- 🤝 **Open Source** – Consistent contributions and community engagement
+- 🌍 **Volunteering** – Workshops, mentoring, and international collaboration
+
+---
+
+*Built with passion. Maintained with intent.*
