@@ -83,6 +83,7 @@
       render: () => {
         const projectsHTML = portfolioData.projects.map((project) => `
           <div class="project-card">
+            <img class="project-image" src="${project.image}" alt="${project.title} project preview" loading="lazy" decoding="async" />
             <h3>${project.title}</h3>
             <p class="project-impact">${project.impact}</p>
             <p>${project.description}</p>

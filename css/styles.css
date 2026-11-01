@@ -1344,8 +1344,7 @@ body.xp-os.boot-complete #mobile-os {
   overflow: hidden;
 }
 
-.desktop-wallpaper::before {
-  content: "RedLeZ";
+.desktop-wordmark {
   position: absolute;
   left: 50%;
   top: 52%;
@@ -1363,6 +1362,7 @@ body.xp-os.boot-complete #mobile-os {
   pointer-events: none;
   user-select: none;
   white-space: nowrap;
+  margin: 0;
 }
 
 .desktop-wallpaper::after {
@@ -1913,6 +1913,15 @@ body.xp-os.boot-complete #mobile-os {
   background: rgba(74, 51, 50, 0.4);
   border-radius: 2px;
   transition: all 0.2s ease;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+  background: var(--surface-container-lowest);
 }
 
 .project-card:hover {

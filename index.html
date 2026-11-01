@@ -3,15 +3,62 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>RedLeZ | Desktop Portfolio OS</title>
-  <meta name="description" content="Portfolio of RedLeZ - A desktop OS-inspired portfolio featuring compilers, tooling, and mod systems." />
-  <meta property="og:title" content="RedLeZ | Desktop Portfolio OS" />
-  <meta property="og:description" content="Interactive desktop OS-inspired portfolio with app windows, taskbar, and start menu." />
-  <meta property="og:url" content="https://redlez.github.io/RedLeZ/" />
-  <meta property="og:image" content="https://redlez.github.io/RedLeZ/assets/og-image.webp"/>
+  <title>Amine Hammami (RedLeZ) | Software Developer Portfolio</title>
+  <meta name="description" content="Amine Hammami (RedLeZ) is a software developer building developer tooling, compilers, DSLs, open-source projects, and Minecraft modding tools." />
+  <meta name="author" content="Amine Hammami (RedLeZ)" />
+  <meta name="theme-color" content="#0b0818" />
+  <link rel="canonical" href="https://redlez.me/" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="Amine Hammami (RedLeZ) | Software Developer Portfolio" />
+  <meta property="og:description" content="Explore RedLeZ's developer tooling, compiler and DSL experiments, open-source work, and Minecraft tooling." />
+  <meta property="og:url" content="https://redlez.me/" />
+  <meta property="og:image" content="https://redlez.me/assets/og-image.webp"/>
+  <meta property="og:image:alt" content="RedLeZ OS synthwave portfolio preview" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Amine Hammami (RedLeZ) | Software Developer Portfolio" />
+  <meta name="twitter:description" content="Developer tooling, compilers, DSLs, open source, and Minecraft tooling by RedLeZ." />
+  <meta name="twitter:image" content="https://redlez.me/assets/og-image.webp" />
+  <meta name="twitter:image:alt" content="RedLeZ OS synthwave portfolio preview" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ProfilePage",
+          "@id": "https://redlez.me/#profile",
+          "url": "https://redlez.me/",
+          "name": "Amine Hammami (RedLeZ) | Software Developer Portfolio",
+          "description": "Portfolio of Amine Hammami (RedLeZ), a software developer focused on developer tooling, compilers, DSLs, open source, and Minecraft tooling.",
+          "mainEntity": { "@id": "https://redlez.me/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://redlez.me/#person",
+          "name": "Amine Hammami",
+          "alternateName": "RedLeZ",
+          "url": "https://redlez.me/",
+          "jobTitle": "Software Developer",
+          "sameAs": [
+            "https://github.com/RedLeZ",
+            "https://www.linkedin.com/in/redlez/"
+          ],
+          "knowsAbout": [
+            "Developer tooling",
+            "Compilers",
+            "Domain-specific languages",
+            "Open source software",
+            "Minecraft modding",
+            "Python",
+            "Java",
+            "C++",
+            "ANTLR4"
+          ]
+        }
+      ]
+    }
+  </script>
   <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,15 +71,18 @@
   <div class="boot-screen" id="boot-screen" aria-live="polite">
     <div class="boot-core">
       <p class="boot-label">System Booting...</p>
-      <h1 class="boot-title">RedLeZ OS</h1>
+      <p class="boot-title">RedLeZ OS</p>
       <div class="boot-loader" aria-hidden="true">
         <span class="boot-loader-bar"></span>
       </div>
     </div>
   </div>
 
-  <div class="desktop" id="desktop-shell">
-    <div class="desktop-wallpaper" aria-hidden="true"></div>
+  <main id="main-content">
+    <div class="desktop" id="desktop-shell">
+      <div class="desktop-wallpaper">
+        <h1 class="desktop-wordmark">RedLeZ</h1>
+      </div>
 
     <div class="desktop-icons" id="desktop-icons" aria-label="Desktop applications"></div>
 
@@ -69,24 +119,41 @@
         </div>
       </div>
     </div>
-  </div>
+    </div>
 
-  <div class="mobile-os" id="mobile-os" aria-label="Mobile OS launcher">
-    <header class="mobile-os-header">
-      <h1>RedLeZ OS</h1>
-      <p>Simple app launcher</p>
-    </header>
-    <div class="mobile-launcher" id="mobile-launcher"></div>
-    <section class="mobile-panel" id="mobile-panel" hidden>
-      <div class="mobile-panel-head">
-        <button type="button" id="mobile-panel-back" class="mobile-panel-control" aria-label="Back to launcher">Home</button>
-        <h2 id="mobile-panel-title"></h2>
-        <button type="button" id="mobile-panel-close" class="mobile-panel-control" aria-label="Close app">Close</button>
-      </div>
-      <p class="mobile-panel-context" id="mobile-panel-context">Home</p>
-      <div class="mobile-panel-body" id="mobile-panel-body"></div>
-    </section>
-  </div>
+    <div class="mobile-os" id="mobile-os" aria-label="Mobile OS launcher">
+      <header class="mobile-os-header">
+        <h2>RedLeZ OS</h2>
+        <p>Simple app launcher</p>
+      </header>
+      <div class="mobile-launcher" id="mobile-launcher"></div>
+      <section class="mobile-panel" id="mobile-panel" hidden>
+        <div class="mobile-panel-head">
+          <button type="button" id="mobile-panel-back" class="mobile-panel-control" aria-label="Back to launcher">Home</button>
+          <h2 id="mobile-panel-title"></h2>
+          <button type="button" id="mobile-panel-close" class="mobile-panel-control" aria-label="Close app">Close</button>
+        </div>
+        <p class="mobile-panel-context" id="mobile-panel-context">Home</p>
+        <div class="mobile-panel-body" id="mobile-panel-body"></div>
+      </section>
+    </div>
+
+    <noscript>
+      <section>
+        <h2>Amine Hammami (RedLeZ) — Software Developer</h2>
+        <p>I build developer tooling, compilers, domain-specific languages, open-source software, and Minecraft tooling.</p>
+        <h2>Featured projects</h2>
+        <ul>
+          <li><a href="https://github.com/RedLeZ/AlgTPy">AlgTPy</a> — a Python translator for the Tunisian algorithm language using ANTLR4.</li>
+          <li><a href="https://github.com/RedLeZ/EZ-Language">EZ-Language</a> — an experimental language for multi-language projects and reproducible Nix environments.</li>
+          <li><a href="https://github.com/RedLeZ/DragonLauncher">DragonLauncher</a> — a Minecraft launcher built from scratch in Java.</li>
+          <li><a href="https://github.com/RedLeZ/RedShell">RedShell</a> — a hackable Python shell with modular extensions and theming.</li>
+        </ul>
+        <h2>Contact</h2>
+        <p><a href="mailto:Dead-Down.RedLeZ@proton.me">Email Amine Hammami</a> · <a href="https://github.com/RedLeZ">GitHub</a> · <a href="https://www.linkedin.com/in/redlez/">LinkedIn</a></p>
+      </section>
+    </noscript>
+  </main>
 
   <footer class="site-footer" style="display: none;">
     <div class="container">
