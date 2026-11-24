@@ -296,6 +296,16 @@ const portfolioData = {
       developerUrl: 'https://playsaurus.com',
       creditSuffix: '- an idle game development studio.',
       allow: "autoplay; payment; fullscreen; microphone; clipboard-read; focus-without-user-activation *; screen-wake-lock; gamepad; clipboard-write 'self' https://mrmine.com"
+    },
+    {
+      id: 'minecraft-web',
+      title: 'MinecraftWeb',
+      embedUrl: 'https://minecraftweb.pages.dev/',
+      siteUrl: 'https://minecraftweb.pages.dev/',
+      developer: 'MinecraftWeb',
+      developerUrl: 'https://minecraftweb.pages.dev/',
+      creditSuffix: '- play Minecraft in your browser.',
+      allow: "autoplay; fullscreen; gamepad; clipboard-read; clipboard-write; screen-wake-lock; focus-without-user-activation *"
     }
   ],
 
